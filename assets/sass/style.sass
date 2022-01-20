@@ -1,180 +1,41 @@
-
-html
-  height: 5000px
-  background: radial-gradient(ellipse at bottom, #191a1d 100%, #090A0F 100%)
-  overflow: scroll
-
-.libro_titulo
-  mix-blend-mode: exclusion
-  position: fixed
-  width: -webkit-fill-available
-  align-content: flex-start
-  align-items: center
-  height: 3rem
-  --offset:20vw
-  --move-initial:calc(-25% + let(--offset))
-  --move-final:calc(-50% + let(--offset))
-
-#title
-  height: 3.5rem
-  width: fit-content
-  position: relative
-  animation: textocorridoTitulo 5s linear 2s infinite alternate
-  transition: opacity 0.1s
-
-@keyframes textocorridoTitulo
-  0%
-    transform: translate3d(var(--move-initial), 0, 0)
-
-  100%
-    transform: translate3d(var(--move-final), 0, 0)
-
-.ilustracion
-  position: fixed
-  max-height: -webkit-fill-available
-  top: 5%
-  right: 0
-
-.libro_ilustracion
-  max-height: 100%
-  left: 0
-  right: 0
-  margin-top: 10px
-  padding-left: 10px
-
-.st5
-  fill: #FAE400
-
-.autor_sticker
-  position: fixed
-  height: 8rem
-  left: 60%
-  top: 30%
-  transform: rotate(20deg)
-
-.st9
-  fill: none
-  stroke: #80D891
-  stroke-width: 0.75
-  stroke-miterlimit: 10
-
-.st10
-  fill: #e2d8c9
-
-#genero
-  width: 13rem
-  position: fixed
-  top: 70%
-  left: 5rem
-
-.st12, .st11
-  fill: white
-
-#sticker2
-  margin-top: 8%
-  margin-left: 20%
-  position: fixed
-
-.hidden
-  opacity: 0
-
-#sticker2_2
-  margin-top: 10%
-  margin-left: 5%
-  position: fixed
-  opacity: 0
-
-@media screen and (max-width: 425px)
-  #title
-    height: 1.7rem
-
-  .autor_sticker
-    height: 4rem
-
-  .ilustracion
-    top: 22%
-    right: 0
-
-  #genero
-    width: 5rem
-    top: 62%
-    left: 1rem
-
-  #sticker2
-    opacity: 0
-
-  #sticker2_2
-    opacity: 1
-
-  @function multiple-box-shadow ($n)
-  $value: '#{random(2000)}px #{random(2000)}px #FFF'
-  @for $i from 2 through $n
-    $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF'
-
-  @return unquote($value)
-
-$shadows-small:  multiple-box-shadow(700)
-$shadows-medium: multiple-box-shadow(200)
-$shadows-big:    multiple-box-shadow(100)
-  
-#stars
-  width: 1px
-  height: 1px
-  background: transparent
-  box-shadow: $shadows-small
-  animation			: animStar 50s linear infinite
-    
-  &:after
-    content: " "
-    position: absolute
-    top: 2000px
-    width: 1px
-    height: 1px
-    background: transparent
-    box-shadow: $shadows-small
-    
-#stars2
-  width: 2px
-  height: 2px
-  background: transparent
-  box-shadow: $shadows-medium
-  animation			: animStar 100s linear infinite
-    
-  &:after
-    content: " "
-    position: absolute
-    top: 2000px
-    width: 2px
-    height: 2px
-    background: transparent
-    box-shadow: $shadows-medium
-    
-#stars3
-  width: 3px
-  height: 3px
-  background: transparent
-  box-shadow: $shadows-big
-  animation			: animStar 150s linear infinite
-    
-  &:after
-    content: " "
-    position: absolute
-    top: 2000px
-    width: 4px
-    height: 3px
-    background: transparent
-    box-shadow: $shadows-big
+@import "lib/vars"
+@import "lib/reboot"
+@import "lib/type"
+h1, h2
+   margin: .3em 30px
+h2
+    color: gray
 
 
-  span
-    background: -webkit-linear-gradient(white, #38495a)
-    background-clip: text
-    -webkit-text-fill-color: transparent
-    
-@keyframes animStar
-  from	
-    transform: translateY(0px)
-  to		
-    transform: translateY(-2000px)
-    
+main, .detail
+    display: flex
+.detail
+    img
+        width: 50px
+        height: 50px
+        margin: 2em
+    div
+        padding: 2em
+        h3
+            margin: 0 0 1em 0
 
+#usuarios
+    list-style: none
+    padding: 0
+    margin: 2em
+    border-right: 1px solid #ccc
+    li
+        padding: .5em
+        border-bottom: 1px solid #ccc
+        transition: all .5s ease
+        display: flex
+        align-items: center
+        cursor: pointer
+        &:hover
+            background-color: #fde457
+        img
+            border-radius: 50%
+            border: 1px solid #ccc
+            background-color: white
+        span
+            padding: 1em
