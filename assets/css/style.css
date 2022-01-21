@@ -388,10 +388,31 @@ html,body{
 }
 
 @font-face {
-  font-family: 'favorit';
-  src: url('../fonts/ABCFavoritExpanded-Medium-Trial.woff2') format('woff2'),
-      url('../fonts/ABCFavoritExpanded-Medium-Trial.woff') format('woff');
-  font-weight: normal;
+  font-family: 'EditorialNew_UltraLight';
+  src: url('../fonts/PPEditorialNew-Ultralight.woff2') format('woff2'),
+      url('../fonts/PPEditorialNew-Ultralight.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'FoundersText_Regular';
+  src: url('../fonts/FoundersGroteskText-Regular.woff2') format('woff2'),
+      url('../fonts/FoundersGroteskText-Regular.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'FoundersText_Light';
+  src: url('../fonts/FoundersGroteskText-Light.woff2') format('woff2'),
+      url('../fonts/FoundersGroteskText-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'FoundersMono_Regular';
+  src: url('../fonts/FoundersGroteskMonoRegular.woff2') format('woff2'),
+      url('../fonts/FoundersGroteskMonoRegular.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
 } 
 .grid_wrapper{
@@ -402,7 +423,6 @@ html,body{
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(36, 109px);
-  grid-gap: 2px;
   width: 100%;
 }
 .menu_secundario{
@@ -522,6 +542,7 @@ color: black;
 
 .user{
   width: 100%;
+  background-color: white;
 }
 canvas{
   z-index: -999;
@@ -572,4 +593,24 @@ object-fit: cover;
 
 img .user{
   object-fit: fill;
+}
+
+@media screen and (max-width:750px){
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(36, 54px);
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width:375px){
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(36, 27px);
+    width: 100%;
+  }
+  
 }
