@@ -1,6 +1,6 @@
 /** Cargar un fichero JSON */
 window.onload = () => {
-    let lista = document.querySelector("#sections");
+    let lista = document.querySelector("#grid");
     let detalle = document.querySelector(".detail");
     let datos;
 
@@ -13,20 +13,28 @@ window.onload = () => {
     .then(data => {
         datos = data;
        data.forEach((user, index) => {
-           let item=`<li class="user" id="${index}">
+           /*let item=`<div class="user" id="${index}">
                     <div><img src="${user.image} "/></div>
                     <span>${user.title} ${user.resume}</span>
-                </li>`;
+                    <span>${user.author} ${user.section}</span>
+                </div>`;*/
+            let item=`<img class="user" id="${index}" src="${user.image} "/>`;
          lista.innerHTML += item;
        });
      })
      .then(()=>{
         let users = document.querySelectorAll(".user");
         users.forEach((user) => {
-            user.addEventListener("click", mostrarDetalle, true)
+            user.addEventListener("click", mostrarDetalle, true);
+            //document.getElementById("myDIV").style.gridColumn = "2 / span 2";
+            //console.log(user.style.color);
+            user.style.gridColumn=datos[user.id].posColI;
+            user.style.gridRow=datos[user.id].posRowI;
         })
      });
 
+
+   
 }
 
 // let ancho = window.innerWidth;

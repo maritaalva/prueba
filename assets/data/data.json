@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "title": "<div class=titulo> How a chair conquered the world</div>",
         "resume": "<div class=resumen> Pull up a chair. And take a good look at it.<br> It forms our bodies. It shapes our <br>thinking. It’s one of the first technologies<br> an American or European child encounters.</div>",
         "author": "<div class=autor> Edward Tenner</div>",
@@ -12,9 +12,8 @@
         "posColT": "6/9",
         "posRowT": "4/6"
     },
-    
     {
-        "id": 2,
+        "id": 1,
         "title": "<div class=titulo>A Day in the Life of a Chair</div>",
         "resume": "<div class=resumen>What does a day in the life of a chair look like? Well, that depends on the day. There’s no such thing as a ‘normal’ day for me, no nine-to-five—I have to roll with the punches...</div>",
         "author": "<div class=autor>Max Küng</div>",
@@ -27,7 +26,7 @@
         "posRowT": "11/13"
     },
     {
-        "id": 3,
+        "id": 2,
         "title": "<div class=titulo>White Plastic Chairs Are Taking Over the World</div>",
         "resume":"<div class=resumen>There are billions of monobloc chairs around the world, and they are completely context free—you can't tell when or where you are by looking at them. We asked a leading scholar if we should be worried by that</div>",
         "author": "<div class=autor>Jules Suzdaltsev</div>",
@@ -40,7 +39,7 @@
         "posRowT": "17/19"
     },
       {
-        "id": 4,
+        "id": 3,
         "title": "<div class=titulo>[POP CULTURE]</div>",
         "resume": "<div class=resumen>As everyday objects, it's easy for our readers to have many anecdotes to share, so we asked them to send us letters about their favorite chairs and why they bring them joy.</div>",
         "author": "<div class=autor>Lourdes Marco</div>",
@@ -53,7 +52,7 @@
         "posRowT": "14/16"
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "<div class=titulo>[SHORT STORIES]</div>",
         "resume": "<div class=resumen>A lot of memorable chairs that you may recognize because they have made their mark in pop culture and society.",
         "author": "<div class=autor>Lourdes Marco</div>",
@@ -65,4 +64,5 @@
         "posColT": "7/9",
         "posRowT": "10/12"
     }
+   
 ]
