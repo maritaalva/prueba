@@ -377,14 +377,14 @@ main, .detail {
   margin: 0 0 1em 0;
 }
 
-#usuarios {
+#sections {
   list-style: none;
   padding: 0;
   margin: 2em;
   border-right: 1px solid #ccc;
 }
 
-#usuarios li {
+#sections li {
   padding: .5em;
   border-bottom: 1px solid #ccc;
   transition: all .5s ease;
@@ -393,17 +393,17 @@ main, .detail {
   cursor: pointer;
 }
 
-#usuarios li:hover {
+#sections li:hover {
   background-color: #fde457;
 }
 
-#usuarios li img {
+#sections li img {
   border-radius: 50%;
   border: 1px solid #ccc;
   background-color: white;
 }
 
-#usuarios li span {
+#sections li span {
   padding: 1em;
 }
 # sourceMappingURL=style.css.map */
@@ -417,7 +417,7 @@ main, .detail {
 } 
 .grid_wrapper{
   margin: 0;
-  background-color: #6f5cff50;
+  background-color: #ffffff;
   height: 100%;
 }
 #grid {
@@ -429,20 +429,27 @@ main, .detail {
 }
 .menu_secundario{
   display: flex;
-  margin-top: 5rem;
   flex-direction: row;
   justify-content: space-between;
-  height: 3rem;
+  justify-items: stretch;
   grid-column: 2/13;
   grid-row: 1;
+  align-self: center;
+  align-items: center;
 }
 .menu_secundario svg{
   height: 20px;
 }
 .social_buttons{
+
   display: flex;
   flex-direction: row;
-  height: 3rem;
+  /* height: 3rem; */
+  align-self: center;
+  justify-items: center;
+  justify-content: stretch;
+  width: 6.5rem;
+  justify-content: space-evenly;
 }
 .social_buttons svg{
   grid-column: 2/3;
@@ -473,5 +480,42 @@ grid-row: 1;
 }
 .right_buttons ul li{
   list-style: none;
+
+}
+
+#logo{
+  grid-column: 6/10;
+  grid-row: 2;
+  height: 50px;
+  align-self: flex-start;
+  justify-self: center;
+}
+
+.main_menu{
+  margin-top: 6.5rem;
+  grid-column: 4/12;
+  grid-row: 2/3;
+ align-items: center;
+ justify-content: space-between;
+}
+.main_menu ul {
+align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.main_menu ul li{
+  list-style: none;
+}
+.main_menu ul li a{
+  font-size: 0.8333rem;
+  text-decoration: none;
+  color: #6E5CFF;
+  background-color: white;
+  padding: 0.6rem;
+  border: 2px solid;
+  border-color:#6E5CFF ;
+  border-radius: 20%;
 
 }
