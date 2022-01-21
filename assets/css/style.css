@@ -556,6 +556,7 @@ h2 {
   margin-bottom: 0.2rem;
   margin-top: 0;
 }
+
 .post_txt p{
   font-family:'FoundersText_Light';
   font-size: 1rem;
@@ -578,6 +579,40 @@ h2 {
   font-family:'FoundersText_Light';
   font-size: 0.75rem;
   line-height: 1.03rem;
+  color: #6E5CFF;
+}
+h1 {
+  font-weight: normal;
+  font-size: 5.6rem;
+  font-family: 'EditorialNew_Thin';
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+  margin-top: 0;
+}
+.art_title_img{
+  margin-left: 5rem;
+  mix-blend-mode: darken;
+}
+.dateAuthorDetail{
+  font-family: 'FoundersText_Regular';
+  font-size: 1rem ;
+}
+#authorDetail{
+  font-family: 'FoundersText_Regular';
+  font-size: 1rem ;
+  color: #6E5CFF;
+}
+.leadText{
+  font-family: 'EditorialNew_Thin';
+  font-size: 1.5rem;
+}
+.contenido{
+  font-family: 'FoundersText_Light';
+  font-size: 1rem;
+}
+.section{
+  font-family: 'EditorialNew_Thin';
+  font-size: 1.125rem;
   color: #6E5CFF;
 }
 canvas{
