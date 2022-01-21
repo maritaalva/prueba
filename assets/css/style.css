@@ -388,9 +388,9 @@ html,body{
 }
 
 @font-face {
-  font-family: 'EditorialNew_UltraLight';
-  src: url('../fonts/PPEditorialNew-Ultralight.woff2') format('woff2'),
-      url('../fonts/PPEditorialNew-Ultralight.woff') format('woff');
+  font-family: 'EditorialNew_Thin';
+  src: url('../fonts/EditorialNew-Thin.woff2') format('woff2'),
+      url('../fonts/EditorialNew-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 } 
@@ -543,6 +543,33 @@ color: black;
 .user{
   width: 100%;
   background-color: white;
+}
+.post_txt{
+  background-color: white;
+  margin: 0.43rem;
+}
+.post_txt h2{
+  font-family:'EditorialNew_Thin';
+  font-size: 2.1 rem;
+}
+.post_txt p{
+  font-family:'FoundersText_Light';
+  font-size: 1rem;
+}
+.flex_post{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.post_txt .section{
+  font-family:'EditorialNew_Thin';
+  font-size: 0.75 rem;
+  color: #6E5CFF;
+}
+.post_txt .autor{
+  font-family:'FoundersText_Light';
+  font-size: 0.75rem;
+  color: #6E5CFF;
 }
 canvas{
   z-index: -999;

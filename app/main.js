@@ -23,7 +23,7 @@ window.onload = () => {
             <div class="post_txt">
                 <h2>${user.title}</h2>
                 <p>${user.resume}</p>
-                <div class="flex">
+                <div class="flex_post">
                     <div class="section">${user.section}</div>
                     <div class="autor">${user.author}</div>
                 </div>
