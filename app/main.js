@@ -18,20 +18,59 @@ window.onload = () => {
                     <span>${user.title} ${user.resume}</span>
                     <span>${user.author} ${user.section}</span>
                 </div>`;*/
-            let item=`<img class="user" id="${index}" src="${user.image} "/>`;
+            let item=`
+            <img class="user" id="${index}" src="${user.image} "/>
+            <div class="post_txt">
+                <h2>${user.title}</h2>
+                <p>${user.resume}</p>
+                <div class="flex">
+                    <div class="section">${user.section}</div>
+                    <div class="autor">${user.author}</div>
+                </div>
+            </div>`;
          lista.innerHTML += item;
        });
      })
      .then(()=>{
         let users = document.querySelectorAll(".user");
+        let posts = document.querySelectorAll(".post_txt");
         users.forEach((user) => {
             user.addEventListener("click", mostrarDetalle, true);
-            //document.getElementById("myDIV").style.gridColumn = "2 / span 2";
-            //console.log(user.style.color);
             user.style.gridColumn=datos[user.id].posColI;
             user.style.gridRow=datos[user.id].posRowI;
+
+            let postTxt = user.nextElementSibling;
+            postTxt.style.gridColumn=datos[user.id].posColT;
+            postTxt.style.gridRow=datos[user.id].posRowT;
         })
+   
      });
+
+     var drawGrid = function(w, h, id) {
+        var canvas = document.getElementById(id);
+        var ctx = canvas.getContext('2d');
+        ctx.canvas.width = w;
+        ctx.canvas.height = h;
+    
+        let gridsize = window.innerWidth / 14;
+    
+        for (x = 0; x <= w; x += gridsize) {
+            ctx.moveTo(x, 0);
+            ctx.lineTo(x, h);
+            for (y = 0; y <= h; y += gridsize) {
+                ctx.moveTo(0, y);
+                ctx.lineTo(w, y);
+            }
+        }
+        ctx.stroke();
+        ctx.canvas.strokeStyle ="#6E5CFF";
+    };
+    
+    window.addEventListener('resize', function(event) {
+        drawGrid(window.innerWidth, window.innerHeight, "gridLines");
+    }, true);
+    
+    drawGrid(window.innerWidth,document.body.scrollHeight, "gridLines");
 
 
    

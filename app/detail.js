@@ -6,16 +6,32 @@ window.onload = () => {
     }
 
     let param = obtenerParam(document.URL);
-
+    let lista = document.querySelector("#grid");
     fetch('assets/data/data.json')
         .then(res => res.json())
         .then(data => {
-            let user = data[Number(param)]
-            document.write(user.title)
-            // let text_box = documentquerySelector(".text_box");
-            // let main = `<h2> ${user.title} </h2> <img class="img_art_01_1" src"${user.image1_1}" alt="african_chair"><img class="img_ess_01_1" src"${user.image2_1}" alt="ilustration"><img class="img_art_02_1" src"${user.image2_1}" alt="monobloc_chair">`
-            // let content = `<p class="contenido">${user.content}</p>`;
-            // main += content;
-            // text_box.innerHTML = main
+            let user = data[Number(param)];
+                 let item=`
+                 <img class="art_title_img" id="0" src="${user.imaget} "/>
+                 <h1>${user.title}</h1>
+                 <div class="leftColumDetail">
+                 <p class="dateAuthorDetail">${user.dateAuthorDetail}</p>
+                 <p class="leadText">${user.leadP}</p>
+                 <img  id="${user.index}" src="${user.image} "/>
+                 <p class="contenido">${user.content1}</p>
+                 <img  id="${user.index}" src="${user.image1} "/>
+                 <p class="contenido">${user.content2}</p>
+                 <img  id="${user.index}" src="${user.image2} "/>
+                 </div>
+                 <div class="rightColumDetail">
+                 <div class="section">${user.section}</div>
+                 <img  id="${user.index}" src="${user.imagec1} "/>
+                 <img  id="${user.index}" src="${user.imagec2} "/>
+                 <img  id="${user.index}" src="${user.imagec3} "/>
+                 <img  id="${user.index}" src="${user.imagec4} "/>
+                 </div>
+                 `;
+              lista.innerHTML += item;
+        
         })
 }
