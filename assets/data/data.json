@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "title": "How a chair conquered the world",
+        "title": "HOW A CHAIR CONQUERED THE WORLD",
         "resume": "Pull up a chair. And take a good look at it.<br> It forms our bodies. It shapes our <br>thinking. It’s one of the first technologies<br> an American or European child encounters.",
         "author": "Edward Tenner",
         "section": "[ARTICLE]",
@@ -24,7 +24,7 @@
     },
     {
         "id": 1,
-        "title": "A Day in the Life of a Chair",
+        "title": "A DAY IN THE LIFE OF A CHAIR",
         "resume": "What does a day in the life of a chair look like? Well, that depends on the day. There’s no such thing as a ‘normal’ day for me, no nine-to-five—I have to roll with the punches...",
         "author": "MAX KÜNG",
         "section": "[ESSAY]",
@@ -46,7 +46,7 @@
     },
     {
         "id": 2,
-        "title": "White Plastic ChairsAre Taking Over the World",
+        "title": "WHITE PLASTIC CHAIRS ARE TAKING OVER THE WORLD",
         "resume":"There are billions of monobloc chairs around the world, and they are completely context free—you can't tell when or where you are by looking at them. We asked a leading scholar if we should be worried by that",
         "author": "Jules Suzdaltsev",
         "section": "[ESSAY]",
@@ -64,7 +64,7 @@
         "posColI": "3/6",
         "posRowI": "14/17",
         "posColT": "3/6",
-        "posRowT": "17/19"
+        "posRowT": "17/20"
     },
       {
         "id": 3,
