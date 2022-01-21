@@ -5,7 +5,12 @@
         "resume": "<div class=resumen> Pull up a chair. And take a good look at it.<br> It forms our bodies. It shapes our <br>thinking. It’s one of the first technologies<br> an American or European child encounters.</div>",
         "author": "<div class=autor> Edward Tenner</div>",
         "section": "<div class=seccion> Article</div>",
-        "image": "assets/images/art_01.jpg"
+        "content":"<div class=contenido> In the West, we prefer to contemplate nature without too many chairs obtruding.<br> We picnic on the grass and spread blankets on the beach. But in artificial settings,<br> there is something disconcerting about the absence of chairs. The “festival seating”--that is, none at all--introduced by post-Woodstock concert promoters soon connoted not celebration but chaos and violence. (The arrangement, though widely banned in the 1980s, is still common, even if the euphemism has long worn thin.) The standing-room-only arrangements of many British football stadiums in the same period amplified hooliganism and turned small perturbations into fatal stampedes. Chairlessness as dehumanization was carried to a nightmarish extreme by the infamous mass transports of the prewar Reichsbahn and the Soviet gulag. Chairs go a long way toward filling a vacuum. They act as our proxies, claim space for us. The New Jersey Transit rail line between Princeton Junction and New York passes a large, new, nondescript condominium near the station in downtown Linden; almost half of the apartments have plastic chairs on their balconies, yet I have never seen a woul sitting in them at any hour I passed by. The chairs seemingly are no for human use but rather for filling otherwise empty niches in the building’s exterior. Yes, chairs are in every sense fundamental to us. With their humbler cousins, the stools and benches, they have been with us for millennia. Curiously, though, they are neither essential nor especially healthful even in industrial and postindustrial societies—even if a few activities probably do demand them. Until recently, the majority of the world’s people rarely used chairs, and many still do not. Yet chairs have spread inexorably around the world, occasionally promoted deliberately by Western rule or influence but more often spontaneously adopted. The change has been one of the most thoroughgoing and apparently irreversible in the history of material culture. Essential parts of this spontaneous technology transfer are still obscure. But in every sense, the fortunes of the chair illustrate human malleability—and society’s construction, reconstruction, and misconstruction of the human body. Once people begain to spend most of their lives in chairs, they are removed as though by ratcheting from their original ground-level ways; individual return may be hazardous, and social reversal has been unknown. Whole civilizations, in adopting chairs, literally change not only their posture but their point of view.</div>",
+        "image": "assets/images/art_01.jpg",
+        "posColI": "2/6",
+        "posRowI": "4/8",
+        "posColT": "6/9",
+        "posRowT": "4/6"
     },
     
     {
@@ -14,7 +19,12 @@
         "resume": "<div class=resumen>What does a day in the life of a chair look like? Well, that depends on the day. There’s no such thing as a ‘normal’ day for me, no nine-to-five—I have to roll with the punches...</div>",
         "author": "<div class=autor>Max Küng</div>",
         "section": "<div class=seccion>Essays</div>",
-        "image": "assets/images/ess_01.jpg"
+        "content":"<div class=contenido></div>",
+        "image": "assets/images/ess_01.jpg",
+        "posColI": "10/13",
+        "posRowI": "8/11",
+        "posColT": "10/13",
+        "posRowT": "11/13"
     },
     {
         "id": 3,
@@ -22,7 +32,12 @@
         "resume":"<div class=resumen>There are billions of monobloc chairs around the world, and they are completely context free—you can't tell when or where you are by looking at them. We asked a leading scholar if we should be worried by that</div>",
         "author": "<div class=autor>Jules Suzdaltsev</div>",
         "section": "<div class=seccion>Essays</div>",
-        "image": "assets/images/ess_02.png"
+        "content":"<div class=contenido></div>",
+        "image": "assets/images/ess_02.png",
+        "posColI": "3/6",
+        "posRowI": "14/17",
+        "posColT": "3/6",
+        "posRowT": "17/19"
     },
       {
         "id": 4,
@@ -30,7 +45,12 @@
         "resume": "<div class=resumen>As everyday objects, it's easy for our readers to have many anecdotes to share, so we asked them to send us letters about their favorite chairs and why they bring them joy.</div>",
         "author": "<div class=autor>Lourdes Marco</div>",
         "section": "<div class=seccion>Pop Culture</div>",
-        "image": "assets/images/popc.jpg"
+        "content":"<div class=contenido></div>",
+        "image": "assets/images/popc.jpg",
+        "posColI": "7/9",
+        "posRowI": "14/16",
+        "posColT": "9/11",
+        "posRowT": "14/16"
     },
     {
         "id": 5,
@@ -38,6 +58,11 @@
         "resume": "<div class=resumen>A lot of memorable chairs that you may recognize because they have made their mark in pop culture and society.",
         "author": "<div class=autor>Lourdes Marco</div>",
         "section": "<div class=seccion> Short Stories</div>",
-        "image": "assets/images/shorts.jpg"
+        "content":"<div class=contenido></div>",
+        "image": "assets/images/shorts.jpg",
+        "posColI": "7/9",
+        "posRowI": "8/10",
+        "posColT": "7/9",
+        "posRowT": "10/12"
     }
 ]
