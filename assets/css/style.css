@@ -1,4 +1,4 @@
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -20,13 +20,6 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", "Helvetica", Arial, sans_serif;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.4;
-  color: #333;
-  text-align: left;
-  background-color: #fff;
   height: 100%;
 }
 
@@ -157,10 +150,6 @@ figure {
   margin: 0 0 1rem;
 }
 
-img {
-  vertical-align: middle;
-  border-style: none;
-}
 
 svg:not(:root) {
   overflow: hidden;
@@ -182,13 +171,7 @@ table {
   border-collapse: collapse;
 }
 
-caption {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  color: #595959;
-  text-align: left;
-  caption-side: bottom;
-}
+
 
 th {
   text-align: inherit;
@@ -406,7 +389,7 @@ main, .detail {
 #sections li span {
   padding: 1em;
 }
-# sourceMappingURL=style.css.map */
+
 
 @font-face {
   font-family: 'favorit';

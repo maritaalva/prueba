@@ -5,7 +5,7 @@
         "resume": "<div class=resumen> Pull up a chair. And take a good look at it.<br> It forms our bodies. It shapes our <br>thinking. It’s one of the first technologies<br> an American or European child encounters.</div>",
         "author": "<div class=autor> Edward Tenner</div>",
         "section": "<div class=seccion> Article</div>",
-        "image": "../images/art_01,jpg"
+        "image": "assets/images/art_01.jpg"
     },
     
     {
@@ -13,24 +13,24 @@
         "title": "<div class=titulo>A Day in the Life of a Chair</div>",
         "resume": "<div class=resumen>What does a day in the life of a chair look like? Well, that depends on the day. There’s no such thing as a ‘normal’ day for me, no nine-to-five—I have to roll with the punches...</div>",
         "author": "<div class=autor>Max Küng</div>",
-        "section": "Essays</div>",
-        "image": "https://robohash.org/ducimusomnisinventore.png?size=50x50&set=set1"
+        "section": "<div class=seccion>Essays</div>",
+        "image": "assets/images/ess_01.jpg"
     },
     {
         "id": 3,
         "title": "<div class=titulo>White Plastic Chairs Are Taking Over the World</div>",
         "resume":"<div class=resumen>There are billions of monobloc chairs around the world, and they are completely context free—you can't tell when or where you are by looking at them. We asked a leading scholar if we should be worried by that</div>",
         "author": "<div class=autor>Jules Suzdaltsev</div>",
-        "section": "Essays</div>",
-        "image": "https://robohash.org/ducimusomnisinventore.png?size=50x50&set=set1"
+        "section": "<div class=seccion>Essays</div>",
+        "image": "assets/images/ess_02.png"
     },
       {
         "id": 4,
         "title": "<div class=titulo>[POP CULTURE]</div>",
         "resume": "<div class=resumen>As everyday objects, it's easy for our readers to have many anecdotes to share, so we asked them to send us letters about their favorite chairs and why they bring them joy.</div>",
         "author": "<div class=autor>Lourdes Marco</div>",
-        "section": "Pop Culture</div>",
-        "image": "https://robohash.org/ducimusomnisinventore.png?size=50x50&set=set1"
+        "section": "<div class=seccion>Pop Culture</div>",
+        "image": "assets/images/popc.jpg"
     },
     {
         "id": 5,
@@ -38,6 +38,6 @@
         "resume": "<div class=resumen>A lot of memorable chairs that you may recognize because they have made their mark in pop culture and society.",
         "author": "<div class=autor>Lourdes Marco</div>",
         "section": "<div class=seccion> Short Stories</div>",
-        "image": "https://robohash.org/ducimusomnisinventore.png?size=50x50&set=set1"
+        "image": "assets/images/shorts.jpg"
     }
 ]

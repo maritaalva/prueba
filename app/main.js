@@ -14,8 +14,8 @@ window.onload = () => {
         datos = data;
        data.forEach((user, index) => {
            let item=`<li class="user" id="${index}">
-                    <img src="${user.image}" alt="${user.first_name} "/>
-                    <span>${user.first_name} ${user.last_name}</span>
+                    <div><img src="${user.image} "/></div>
+                    <span>${user.title} ${user.resume}</span>
                 </li>`;
          lista.innerHTML += item;
        });
