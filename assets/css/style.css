@@ -683,5 +683,55 @@ img .user{
     grid-template-rows: repeat(36, 27px);
     width: 100%;
   }
+  h2 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    font-family: 'EditorialNew_Thin';
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+    margin-top: 0;
+  }
+  
+  .post_txt p{
+    font-family:'FoundersText_Light';
+    font-size: 0.875rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0;
+  }
+
+  h1 {
+    font-weight: normal;
+    font-size: 1.81rem;
+    font-family: 'EditorialNew_Thin';
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+    margin-top: 0;
+  }
+  .art_title_img{
+    margin-left: 0.5rem;
+    mix-blend-mode: darken;
+  }
+  .dateAuthorDetail{
+    font-family: 'FoundersText_Regular';
+    font-size: 0.75rem ;
+  }
+  #authorDetail{
+    font-family: 'FoundersText_Regular';
+    font-size: 0.75rem ;
+    color: #6E5CFF;
+  }
+  .leadText{
+    font-family: 'EditorialNew_Thin';
+    font-size: 1rem;
+  }
+  .contenido{
+    font-family: 'FoundersText_Light';
+    font-size: 0.875rem;
+  }
+  .section{
+    font-family: 'EditorialNew_Thin';
+    font-size: 0.875rem;
+    color: #6E5CFF;
+  }
   
 }
