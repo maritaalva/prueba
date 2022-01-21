@@ -569,6 +569,7 @@ object-fit: cover;
  height: 100%;
  justify-self: center;
 }
-.imgnone{
-  opacity:0;
+
+img .user{
+  object-fit: fill;
 }
