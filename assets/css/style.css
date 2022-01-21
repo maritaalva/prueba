@@ -1,4 +1,4 @@
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -406,4 +406,72 @@ main, .detail {
 #usuarios li span {
   padding: 1em;
 }
-/*# sourceMappingURL=style.css.map */
+# sourceMappingURL=style.css.map */
+
+@font-face {
+  font-family: 'favorit';
+  src: url('../fonts/ABCFavoritExpanded-Medium-Trial.woff2') format('woff2'),
+      url('../fonts/ABCFavoritExpanded-Medium-Trial.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+.grid_wrapper{
+  margin: 0;
+  background-color: #6f5cff50;
+  height: 100%;
+}
+#grid {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(36, 109px);
+  grid-gap: 2px;
+  width: 100%;
+}
+.menu_secundario{
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 3rem;
+  grid-column: 2/13;
+  grid-row: 1;
+}
+.menu_secundario svg{
+  height: 20px;
+}
+.social_buttons{
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+}
+.social_buttons svg{
+  grid-column: 2/3;
+  grid-row: 1;
+}
+.right_buttons{
+  display: flex;
+  flex-direction: row;
+  grid-column: 12/14;
+  grid-row: 1;
+}
+
+.right_buttons ul {
+  grid-column: 12/14;
+grid-row: 1;
+}
+
+.right_buttons ul li a{
+  
+  font-size: 0.8333rem;
+  text-decoration: none;
+  color: #6E5CFF;
+  background-color: white;
+  padding: 0.6rem;
+  border: 2px solid;
+  border-color:#6E5CFF ;
+  border-radius: 20%;
+}
+.right_buttons ul li{
+  list-style: none;
+
+}
